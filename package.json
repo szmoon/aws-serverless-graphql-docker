@@ -31,7 +31,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run lint && nodemon --watch src --exec serverless offline",
     "dynamodb:install": "sls dynamodb install",
-    "dynamodb": "sls dynamodb start",
+    "dynamodb": "sls dynamodb install && sls dynamodb start",
     "dynamodb:debug": "SLS_DEBUG=* sls dynamodb start",
     "dynamodb:pid": "sudo lsof -i tcp:8000",
     "docker": "docker-compose stop && docker-compose up",
