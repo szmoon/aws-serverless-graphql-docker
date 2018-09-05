@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"] */
 const { gql } = require('apollo-server-lambda');
 
 const typeDef = gql`

@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"] */
 const { ApolloServer } = require('apollo-server-lambda');
 const { typeDefs, resolvers } = require('./graphql/schema');
 const models = require('./models');

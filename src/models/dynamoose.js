@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"] */
 const dynamoose = require('dynamoose');
 
 require('dotenv').config();

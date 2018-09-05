@@ -1,3 +1,4 @@
+/* eslint linebreak-style: ["error", "windows"] */
 const { merge } = require('lodash');
 const { gql } = require('apollo-server-lambda');
 const { typeDef: Post, resolvers: postResolvers } = require('./types/post');
